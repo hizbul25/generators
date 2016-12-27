@@ -1,12 +1,15 @@
 {
   "name": "hizbul/generators",
   "description": "Generate Model, Controller, View and migration in a single artisan command",
-  "type": "library",
+  "keywords": ["Laravel Model, Controller, Migration, View Generator", "Laravel5 Generator", "Laravel Hizbul Generator"],
+  "type": "package",
   "license": "MIT",
   "authors": [
     {
-      "name": "Hizbul Bahar",
-      "email": "hizbul25@gmail.com"
+      	"name": "Hizbul Bahar",
+      	"email": "hizbul25@gmail.com",
+	"homepage": "https://github.com/hizbul25",
+	"role": "Developer"
     }
   ],
   "minimum-stability": "dev",
