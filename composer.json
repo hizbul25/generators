@@ -1,7 +1,7 @@
 {
   "name": "hizbul/generators",
   "description": "Generate Model, Controller, View and migration in a single artisan command",
-  "keywords": ["Laravel Model, Controller, Migration, View Generator", "Laravel5 Generator", "Laravel Hizbul Generator"],
+  "keywords": ["Laravel Single command generator", "Laravel5 Generator", "Laravel Hizbul Generator"],
   "type": "package",
   "license": "MIT",
   "authors": [
