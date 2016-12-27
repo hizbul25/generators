@@ -1,4 +1,4 @@
-# Laravel 5 Extended Generators
+# Laravel 5 Generators
 
 L5 includes a bunch of generators out of the box, so this package only needs to add couple of command in a single command, like:
 
