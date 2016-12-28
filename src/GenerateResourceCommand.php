@@ -76,7 +76,14 @@ class GenerateResourceCommand extends Command
         }
 
         if($this->option('migration')) {
-            $this->makeMigration();
+            if(!$this->getTableName())
+            {
+                $this->error('Migration command should have create and table word. e.g, create_test_table');
+            }
+            else{
+                $this->makeMigration();
+            }
+
         }
     }
 
@@ -295,6 +302,9 @@ class GenerateResourceCommand extends Command
     public function getTableName()
     {
         $migrationName = $this->option('migration');
+        if(strpos($migrationName, 'create') == false) {
+           return false;
+        }
         preg_match('/create_(.*)_table/', strtolower($migrationName), $table);
 
         return  $table[1];
