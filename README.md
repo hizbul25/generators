@@ -2,7 +2,7 @@
 
 L5 includes a bunch of generators out of the box, so this package only needs to add couple of command in a single command, like:
 
-- `generate:all  generate:all --controller=SomeController --model=some --view=some --migration=create_some_table`
+- ` generate:all --controller=SomeController --model=some --view=some --migration=create_some_table`
 
 *With one or two more to come.*
 
